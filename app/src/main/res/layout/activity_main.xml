@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            android:layout_marginTop="5dp">
+
+            <com.mahindra.mylibrary.validation.validators.EditTextName
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:hint="Enter Name"
+                android:maxLength="30"
+                android:textSize="14dp"
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:shadowColor="#FFF"
+                android:singleLine="true"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            android:layout_marginTop="5dp">
+
+            <com.mahindra.mylibrary.validation.validators.MyEditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:hint="Enter Email"
+                android:maxLength="30"
+                android:textSize="14dp"
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:shadowColor="#FFF"
+                android:singleLine="true"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            android:layout_marginTop="5dp">
+
+            <com.mahindra.mylibrary.validation.validators.EditTextMobile
+                android:id="@+id/input_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:hint="Enter Mobile"
+                android:maxLength="30"
+                android:textSize="14dp"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:shadowColor="#FFF"
+                android:singleLine="true"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            android:layout_marginTop="5dp">
+
+            <com.mahindra.mylibrary.validation.validators.EditTextPincode
+                android:id="@+id/input_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:hint="Enter Pincode"
+                android:maxLength="30"
+                android:textSize="14dp"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:shadowColor="#FFF"
+                android:singleLine="true"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            android:layout_marginTop="5dp">
+
+            <com.mahindra.mylibrary.validation.validators.EditTextDOB
+                android:id="@+id/input_dateofbirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:hint="Enter Date of Birth"
+                android:maxLength="30"
+                android:textSize="14dp"
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:shadowColor="#FFF"
+                android:singleLine="true"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="#000000"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+            android:layout_marginTop="5dp">
+
+            <com.mahindra.mylibrary.validation.validators.EditTextCity
+                android:id="@+id/input_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:hint="Enter City"
+                android:maxLength="30"
+                android:textSize="14dp"
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:shadowColor="#FFF"
+                android:singleLine="true"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+     <!--   <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <Validators.MyEditText
+            android:id="@+id/input_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country"/>
+    </android.support.design.widget.TextInputLayout>-->
+
+
+<!--
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <Validators.MyEditText
+                android:id="@+id/input_pancard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pan Card No"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <Validators.MyEditText
+                android:id="@+id/input_aadharcard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pan Card No"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <Validators.MyEditText
+                android:id="@+id/input_accno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Card Details"/>
+        </android.support.design.widget.TextInputLayout>-->
+
+
+
+        <com.mahindra.mylibrary.validation.validators.SpinnerCustom
+            android:id="@+id/spinnerDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="3dp"
+            android:hint="Enter Name"
+            android:maxLength="30"
+            android:textSize="14dp"
+            android:inputType="textCapWords"
+            android:textColor="#000000"
+            android:shadowColor="#FFF"
+            android:singleLine="true"
+            android:entries="@array/tech_stacks"
+
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_sign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="Create Account"/>
+
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:background="#111"/>
+
+    </LinearLayout>
+</ScrollView>

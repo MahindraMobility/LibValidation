@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyLibraryproject</string>
+    <string name="err_email">err_email</string>
+    <string name="err_password">err_password</string>
+    <string name="err_name">err_name</string>
+    <string name="err_mobile">err_mobile</string>
+    <string name="err_tech_stacks">err_tech_stacks</string>
+
+    <string-array name="styles">
+        <item>BASIC</item>
+        <item>COLORATION</item>
+        <item>UNDERLABEL</item>
+        <item>TEXT_INPUT_LAYOUT</item>
+    </string-array>
+
+    <string-array name="tech_stacks">
+        <item>&lt; Please select one &gt;</item>
+        <item>Backend</item>
+        <item>Frontend</item>
+        <item>Mobile</item>
+        <item>Data</item>
+        <item>Fullstack</item>
+    </string-array>
+</resources>
