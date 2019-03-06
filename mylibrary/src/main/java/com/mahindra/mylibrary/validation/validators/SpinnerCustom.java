@@ -15,7 +15,6 @@ public class SpinnerCustom extends android.support.v7.widget.AppCompatSpinner   
     public SpinnerCustom(Context context, AttributeSet attrs) {
         super(context, attrs);
         context = context;
-        System.out.println("Demo");
         setOnItemSelectedListener(listener);
     }
 
@@ -27,8 +26,6 @@ public class SpinnerCustom extends android.support.v7.widget.AppCompatSpinner   
             if(i==0){
                 TextView errorText = (TextView)adapterView.getSelectedView();
                 errorText.setError("please select item");
-                //errorText.setTextColor(Color.RED);//just to highlight that this is an error
-               // errorText.setText("my actual error text");
             }
 
         }
